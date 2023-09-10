@@ -1,0 +1,10 @@
+import math
+a = float(input("Podaj pierwszy bok: "))
+b = float(input("Podaj drugi bok: "))
+c = float(input("Podaj trzeci bok: "))
+print("Czy trojkat sie stworzy?")
+if (a + b > c) and (b + c > a) and (c + a > b):
+    print("Tak")
+else:
+    print("Nie")
+
